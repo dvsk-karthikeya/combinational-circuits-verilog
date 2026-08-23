@@ -1,0 +1,1 @@
+This is a repo of all code related to my verilog learnings

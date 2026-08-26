@@ -21,8 +21,7 @@ Thus, sum = a XOR b
       carry = a AND b
 
 ## Implementation
-Implemented using dataflow modeling in Verilog.
-Simulated and verified in Xilinx Vivado.
+Implemented using dataflow modeling in Verilog.                                                                                                        Simulated and verified in Xilinx Vivado.
 
 ## Simulation Waveform
 ![Waveform](half_adder_waveform.png)

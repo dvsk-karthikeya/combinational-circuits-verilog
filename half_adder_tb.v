@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module half_adder_tb;
 reg a,b;
 wire sum, carry;

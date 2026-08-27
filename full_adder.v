@@ -6,5 +6,5 @@ module full_adder (
     output wire cout
 );
     assign sum = a ^ b ^ cin; // Sum is the XOR of a, b, and cin
-    assign cout = (a & b) | (cin & (a ^ b)); // Carry out is generated if any two inputs are high
+    assign cout = (a & b) | (cin & a) | (cin & b); // Carry out is generated if any two inputs are high
 endmodule

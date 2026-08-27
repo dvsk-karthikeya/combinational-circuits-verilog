@@ -7,7 +7,7 @@ Such a circuit can be realised by instantiating four full adder modules successi
 The reason we call it a ripple carry adder is because like a ripple in water, each full adder (except the first one) must wait for the carry given by the previous module to execute its operation. This kind of implementation is not feasible when adding multiple bits as there is a delay in the operation from one adder to another, which is the reason why we use a carry select adder.
 
 ## Implementation
-Implemented using dataflow modeling in Verilog. Simulated and verified in Xilinx Vivado.
+Implemented using structural modeling in Verilog. Simulated and verified in Xilinx Vivado.
 
 ## Simulation Waveform 
 ![Waveform](rpc_4bit_waveform.png)
